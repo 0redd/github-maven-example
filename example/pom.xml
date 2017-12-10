@@ -42,7 +42,7 @@
 	    <repository>
 		<id>localRelease</id>
 		<name>RepositoryProxyRel</name>
-		<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+		<url>http://172.17.0.4:8081/nexus/content/repositories/releases/</url>
 	    </repository>
 	</distributionManagement>
 	
