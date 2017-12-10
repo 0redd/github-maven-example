@@ -40,8 +40,8 @@
 	<distributionManagement>
 	    <!-- use the following if you're not using a snapshot version. -->
 	    <repository>
-		<id>localRelease</id>
-		<name>RepositoryProxyRel</name>
+		<id>releases</id>
+		<name>Releases</name>
 		<url>http://172.17.0.4:8081/nexus/content/repositories/releases/</url>
 	    </repository>
 	</distributionManagement>
