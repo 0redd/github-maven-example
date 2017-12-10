@@ -45,11 +45,11 @@
 		<url>http://172.17.0.4:8081/nexus/content/repositories/releases/</url>
 	    </repository>
 		
-	    <repository>
+	    <snapshotRepository>
 		<id>snapshots</id>
 		<name>Snapshots</name>
 		<url>http://172.17.0.4:8081/nexus/content/repositories/snapshots/</url>
-	    </repository>
+	    </snapshotRepository>
 		
 	</distributionManagement>
 	
