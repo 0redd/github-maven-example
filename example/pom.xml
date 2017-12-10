@@ -37,6 +37,15 @@
 		</developer>
 	</developers>
 
+	<distributionManagement>
+	    <!-- use the following if you're not using a snapshot version. -->
+	    <repository>
+		<id>localRelease</id>
+		<name>RepositoryProxyRel</name>
+		<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+	    </repository>
+	</distributionManagement>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
